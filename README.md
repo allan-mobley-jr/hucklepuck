@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: index
 comments: false
-permalink: /about/
 ---
 
 ## Welcome to The Hucklepuck
