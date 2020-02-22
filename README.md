@@ -1,2 +1,2 @@
-# Welcom to The Hucklepuck
+# Welcome to The Hucklepuck
 A blog about going serverless.
