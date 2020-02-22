@@ -23,7 +23,7 @@ avatar: /images/logo.png
 
 # URL of blog favicon
 # favicon: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/favicon.ico
-favicon: /images/favicon.ico
+favicon: https://www.thehucklepuck.com/favicon.ico
 
 # Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
