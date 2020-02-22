@@ -11,11 +11,11 @@ name: The Hucklepuck
 # Short bio or description (displayed in the header)
 description: Bound by Code
 
-# If you're hosting your blog at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
+# If the blog is being hosted at a Project repository on GitHub pages
+# (http://<owner>.github.io/repository-name)
+# and NOT the owner's repository (http://<owner>.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/hucklepuck"
+baseurl: ""
 
 # URL of blog avatar
 avatar: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/logo.png
