@@ -28,7 +28,7 @@ google_analytics:
 
 # Blog website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://www.thehucklepuck.com/
+url: https://www.thehucklepuck.com
 
 # Use the following plug-ins
 gems:
