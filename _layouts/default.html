@@ -47,9 +47,7 @@
     <main id="content" class="main-content container" role="main">
       
       {{ content }}
-      
-      {% if site.layout == "default" %}
-        <div class="posts">
+      <div class="posts">
           {% for post in site.posts %}
             <article class="post">
 
@@ -63,6 +61,8 @@
             </article>
           {% endfor %}
         </div>
+      {% if site.layout == "default" %}
+        
       {% endif %}
       
     </main>
