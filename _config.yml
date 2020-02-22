@@ -18,12 +18,10 @@ description: Bound by Code
 baseurl: ""
 
 # URL of blog avatar
-# avatar: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/logo.png
 avatar: /images/logo.png
 
-# URL of blog favicon
-# favicon: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/favicon.ico
-favicon: https://www.thehucklepuck.com/favicon.ico
+# URL of blog favicon (Google browser only respects this url)
+favicon: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/favicon.ico
 
 # Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
