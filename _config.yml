@@ -1,0 +1,15 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Overall site theme
+theme: jekyll-theme-cayman
+
+# Name of your site (displayed in the header)
+name: The Hucklepuck
+
+# Short bio or description (displayed in the header)
+description: Bound by Code
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/images/logo.png
