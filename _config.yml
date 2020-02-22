@@ -30,6 +30,8 @@ google_analytics: UA-158855820-1
 # Used for Sitemap.xml and your RSS feed
 url: https://www.thehucklepuck.com
 
+permalink: /:title/
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
