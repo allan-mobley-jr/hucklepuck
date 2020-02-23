@@ -26,9 +26,13 @@ favicon: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/fav
 # Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-158855820-1
 
-# Blog website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Blog website url
 # Used for Sitemap.xml and your RSS feed
 url: https://www.thehucklepuck.com
+
+# Blog repo url
+# Used for comments
+repo: allan-mobley-jr/hucklepuck
 
 permalink: /:title/
 
