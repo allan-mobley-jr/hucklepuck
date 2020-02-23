@@ -13,7 +13,6 @@ layout: default
 </article>
 
 {% if page.comments %}
-  <iframe src="https://github.com/{{ site.repo }}/issues/{{ page.CommentId }}#show_issue" />
   <!-- <script src="https://utteranc.es/client.js"
           repo="allan-mobley-jr/hucklepuck"
           issue-term="pathname"
@@ -28,8 +27,8 @@ layout: default
     <a href="javascript:void(0)" id="load-comments" class="btn" style="display:none">Load more comments</a>
   </div>
   <script>
-    var url = 'https://github.com/' + {{ site.repo }} + '/issues/' + {{ page.CommentId }}
-    var api_url = 'https://api.github.com/repos/' + {{ site.repo }} + '/issues/' + {{ page.CommentId }} + '/comments'
+    var url = 'https://github.com/' + {{ site.repo }} + '/issues/' + {{ page.commentId }}
+    var api_url = 'https://api.github.com/repos/' + {{ site.repo }} + '/issues/' + {{ page.commentId }} + '/comments'
 
     fetch(api_url, {
         headers: {
