@@ -39,7 +39,8 @@ layout: default
         return response.json();
       })
       .then((comments) => {
-        $("#comments-list").append("Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post");
+        var commentList = document.getElementById("#comments-list");
+        commentList.innerHTML = "Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post";
         comments.forEach((comment) => {
           var date = new Date(comment.created_at);
           var t = "<div id='comment'>";
@@ -50,11 +51,11 @@ layout: default
           t += "<div id='comment-hr'></div>";
           t += comment.body_html;
           t += "</div>";
-          $("#comments-list").append(t);
+          commentList.innerHTML += t;
         });
       })
       .catch((error) => {
-        $("#comments-list").append("Comments are not open for this post yet.");
+        commentList.innerHTML = "Comments are not open for this post yet.";
       });
   </script>
 {% endif %}
