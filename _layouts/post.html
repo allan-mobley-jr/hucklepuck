@@ -27,7 +27,7 @@ layout: default
     <a href="javascript:void(0)" id="load-comments" class="btn" style="display:none">Load more comments</a>
   </div>
   <script>
-    var url = "https://github.com/{{ site.repo }}/issues/{{ page.commentId }}"";
+    var url = 'https://github.com/{{ site.repo }}/issues/{{ page.commentId }}';
     var api_url = 'https://api.github.com/repos/{{ site.repo }}/issues/{{ page.commentId }}/comments'
 
     fetch(api_url, {
