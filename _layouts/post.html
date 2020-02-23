@@ -20,7 +20,7 @@ layout: default
           crossorigin="anonymous"
           async>
   </script> -->
-  <!-- <div id="gh-comments">
+  <div id="comments">
     <br/><br/>
     <h6>COMMENTS</h6>
     <div id="comments-list"></div>
@@ -39,34 +39,22 @@ layout: default
         return response.json();
       })
       .then((comments) => {
-        
+        $("#comments-list").append("Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post");
+        comments.forEach((comment) => {
+          var date = new Date(comment.created_at);
+          var t = "<div id='comment'>";
+          t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
+          t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
+          t += " posted at ";
+          t += "<em>" + date.toUTCString() + "</em>";
+          t += "<div id='comment-hr'></div>";
+          t += comment.body_html;
+          t += "</div>";
+          $("#comments-list").append(t);
+        });
       })
       .catch((error) => {
         $("#comments-list").append("Comments are not open for this post yet.");
       });
-
-    $(document).ready(function () {
-        $.ajax(api_url, {
-            headers: {Accept: "application/vnd.github.v3.html+json"},
-            dataType: "json",
-            success: function(comments) {
-                $("#gh-comments-list").append("Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post");
-                $.each(comments, function(i, comment) {
-
-                    var date = new Date(comment.created_at);
-
-                    var t = "<div id='gh-comment'>";
-                    t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
-                    t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
-                    t += " posted at ";
-                    t += "<em>" + date.toUTCString() + "</em>";
-                    t += "<div id='gh-comment-hr'></div>";
-                    t += comment.body_html;
-                    t += "</div>";
-                    $("#gh-comments-list").append(t);
-                });
-            }
-        });
-    });
-  </script> -->
+  </script>
 {% endif %}
