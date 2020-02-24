@@ -24,4 +24,4 @@ Finally, as a highly driven developer, I'm am constantly
 keeping abreast of moves in software technologies and tools.
 It's the reason why we are taking this serverless journey in the first place.
 
-<div class="text-center"><a href="{{ site.github.owner_url }}"><i class="fab fa-github text-grey"></i></a></div>
+<div class="text-center"><a href="{{ site.github.owner_url }}"><i class="fab fa-github fa-3x text-grey"></i></a></div>
