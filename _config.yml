@@ -5,11 +5,14 @@
 # Overall site theme
 theme: jekyll-theme-cayman
 
-# Name of blog (displayed in the header and footer)
+# Name of blog
 name: The Hucklepuck
 
-# Short bio or description (displayed in the header)
-description: Bound by Code
+# Name of site author
+author: Allan Mobley
+
+# Short bio or description
+description: A blog about going serverless.
 
 # If the blog is being hosted at a Project repository on GitHub pages
 # (http://<owner>.github.io/repository-name)
