@@ -20,6 +20,9 @@ baseurl: ""
 # URL of blog avatar
 avatar: /images/logo.png
 
+# URL of author avatar
+author_avatar: https://avatars0.githubusercontent.com/u/38449003?v=4
+
 # URL of blog favicon (Google browser only respects this url)
 favicon: https://raw.githubusercontent.com/allan-mobley-jr/hucklepuck/master/favicon.ico
 
