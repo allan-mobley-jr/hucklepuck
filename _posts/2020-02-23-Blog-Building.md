@@ -42,3 +42,22 @@ No server had to be spun up or provisioned. No scale up or scale out settings ha
 And you know the best part? ***Absolutely free!***
 
 That's right, Spanky.
+
+What about search and comments capability? That turned out to be just as easy, 
+and did not compromise the serverless goals.
+
+For search, I came across this [article](https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/) 
+on [cloudcannon](https://learn.cloudcannon.com/) using this technology [Lunr](https://lunrjs.com/). 
+Basically, this is super simple (to use) search JavaScript plugin that can run client-side (i.e., in browser). 
+With the article's help, I quickly implemented a nice way for users to search all the blog posts.
+
+Cost? ***Absolutely free!***
+
+Finally, for comments, I came across this Jekyll plugin [utterances](https://utteranc.es/) developed by 
+Microsoft alum [Jeremy Danyow](https://github.com/jdanyow/). This is a GitHub App that uses the blog repo's 
+issues feature to create and store user comments by matching the comments to a particular blog post via some factor that you 
+determine (such as, the title of the post). And as you can see below, it's super sweet!
+
+Cost? ***Absolutely free!***
+
+Well, there you have it. First blog post on my serverless blog in the books.
