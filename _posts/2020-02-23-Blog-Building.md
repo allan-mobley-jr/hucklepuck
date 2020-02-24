@@ -33,7 +33,7 @@ Wait a minute, Spanky. You don't know the first thing about spinning up a blog, 
 Where to start? What to do? Well, do what you always do when faced with a technology you don't know: 
 *Jump right in and start researching*.
 
-Googling "static blogs with search and comment capability" led me to [Jekyll](https://jekyllrb.com/) 
+Googling "static blogs with search and comments capability" led me to [Jekyll](https://jekyllrb.com/) 
 and [GitHub Pages](https://pages.github.com/). Within a matter of hours, 
 I was able to get a comprehensive overview of these technologies 
 and publish a working blog template to a custom domain with an SSL to boot (thank you, Google Domains).
