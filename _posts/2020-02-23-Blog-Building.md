@@ -10,9 +10,9 @@ how I built this blog with that very serverless theme in mind.
 
 Let me start off by saying that I am by no means an expert on going serverless. 
 Let me also say that I am not here to argue how *you* define the term 
-or whether *you* think it's an appropriate, unfortunate, or misleading moniker.
+or whether *you* think it's an inappropriate, unfortunate, or misleading moniker.
 
-Let's get that straight from the jump.
+Let's get that straight from the jump, Spanky.
 
 Now when I think of serverless, three things come to mind:
 
@@ -25,36 +25,36 @@ I couldn't very well spin up a blog using the classic web server model.
 That would be hypocritical to say the least.
 
 No, I needed to find a way to host my blog in a static, low cost way. 
-I also needed a way of doing so that allowed visitors to search the blog and leave comments if so desired. 
+I also needed a way of doing so that allowed visitors to search the blog and leave comments if so desired.
+
 Sounds easy, right?
 
-Wait a minute, Spanky. I did not know the first thing about spinning up a blog, let alone a serverless one. 
-Where should I start? What should I do? 
-Well, I did what I always do when faced with a technology I don't know: 
-*I jump right in and start researching*.
+Wait a minute, Spanky. You don't know the first thing about spinning up a blog, let alone a serverless one. 
+Where to start? What to do? Well, do what you always do when faced with a technology you don't know: 
+*Jump right in and start researching*.
 
 Googling "static blogs with search and comment capability" led me to [Jekyll](https://jekyllrb.com/) 
 and [GitHub Pages](https://pages.github.com/). Within a matter of hours, 
 I was able to get a comprehensive overview of these technologies 
-and publish a working blog template to a custom domain with an SSL to boot.
+and publish a working blog template to a custom domain with an SSL to boot (thank you, Google Domains).
 
 No server had to be spun up or provisioned. No scale up or scale out settings had to be tweaked. 
 And you know the best part? ***Absolutely free!***
 
 That's right, Spanky.
 
-What about search and comments capability? That turned out to be just as easy, 
-and did not compromise the serverless goals.
+What about search and comments capability? That turned out to be just as easy as well, 
+and did not compromise my serverless goals.
 
 For search, I came across this [article](https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/) 
 on [cloudcannon](https://learn.cloudcannon.com/) using this technology [Lunr](https://lunrjs.com/). 
-Basically, this is super simple (to use) search JavaScript plugin that can run client-side (i.e., in browser). 
+Basically, this is super simple (to use) JavaScript plugin that can run client-side (i.e., in browser). 
 With the article's help, I quickly implemented a nice way for users to search all the blog posts.
 
 Cost? ***Absolutely free!***
 
 Finally, for comments, I came across this Jekyll plugin [utterances](https://utteranc.es/) developed by 
-Microsoft alum [Jeremy Danyow](https://github.com/jdanyow/). This is a GitHub App that uses the blog repo's 
+Microsoft alum [Jeremy Danyow](https://github.com/jdanyow/). This is a GitHub App that uses your repo's GitHub 
 issues feature to create and store user comments by matching the comments to a particular blog post via some factor that you 
 determine (such as, the title of the post). And as you can see below, it's super sweet!
 
