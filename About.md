@@ -15,7 +15,7 @@ I have plenty of hands on experience with **REST** APIs
 and working with both **JSON** and **XML**.
 
 Relational databases and NoSQL ones don't scare me either,
-as we have used both here at QBCart: **Azure SQL** and **Azure Cosmos**.
+as I have used both here at QBCart: **Azure SQL** and **Azure Cosmos**.
 
 Version controls (**git** and **GitHub**) and CI/CD pipelines (**Azure Pipelines**), 
 do I love thee!
