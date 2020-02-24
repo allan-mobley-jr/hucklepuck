@@ -20,42 +20,4 @@ layout: default
           crossorigin="anonymous"
           async>
   </script>
-  <!-- <div id="comments">
-    <br/><br/>
-    <h6>COMMENTS</h6>
-    <div id="comments-list"></div>
-    <a href="javascript:void(0)" id="load-comments" class="btn" style="display:none">Load more comments</a>
-  </div>
-  <script>
-    var url = 'https://github.com/{{ site.repo }}/issues/{{ page.commentId }}';
-    var api_url = 'https://api.github.com/repos/{{ site.repo }}/issues/{{ page.commentId }}/comments'
-
-    fetch(api_url, {
-        headers: {
-          'Accept': 'application/vnd.github.v3.html+json'
-        }
-      })
-      .then((response) => {
-        return response.json();
-      })
-      .then((comments) => {
-        var commentList = document.getElementById("comments-list");
-        commentList.innerHTML = "Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post";
-        comments.forEach((comment) => {
-          var date = new Date(comment.created_at);
-          var t = "<div id='comment'>";
-          t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
-          t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
-          t += " posted at ";
-          t += "<em>" + date.toUTCString() + "</em>";
-          t += "<div id='comment-hr'></div>";
-          t += comment.body_html;
-          t += "</div>";
-          commentList.innerHTML += t;
-        });
-      })
-      .catch((error) => {
-        commentList.innerHTML = "Comments are not open for this post yet.";
-      });
-  </script> -->
 {% endif %}
