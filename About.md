@@ -3,7 +3,7 @@ layout: default
 permalink: /about/
 ---
 
-## About the Arthur
+## About the Author
 
 I'm a full-stack developer and currently lead engineer 
 at QBCart, an enterprise SaaS application hosted in Azure.
