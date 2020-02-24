@@ -5,9 +5,12 @@ layout: default
 <div class="search">
 	{{ content }}
 	<form action="{{ site.baseurl }}/search" method="get">
-	<label for="search-box">Search</label>
-	<input type="text" id="search-box" name="query">
-	<input type="submit" value="search">
+		<div class="input-group mb-3">
+			<input id="search-box" name="query" type="text" class="form-control">
+			<div class="input-group-append">
+				<button class="btn btn-secondary" type="submit" value="search"><i class="fas fa-search"></i></button>
+			</div>
+		</div>
 	</form>
 	
 	<ul id="search-results"></ul>
