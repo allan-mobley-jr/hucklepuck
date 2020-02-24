@@ -8,6 +8,9 @@ theme: jekyll-theme-cayman
 # Name of blog
 name: The Hucklepuck
 
+# Subtitle of blog
+subtitle: Bound by Code
+
 # Name of site author
 author: Allan Mobley
 
