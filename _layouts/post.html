@@ -8,11 +8,7 @@ layout: default
     {{ content }}
   </div>
   <div class="date">
-    {% if page.author %}
-      Written on {{ page.date | date: "%B %e, %Y" }} by {% page.author %}.
-    {% else %}
-    Written on {{ page.date | date: "%B %e, %Y" }}.
-    {% endif %}
+    Written on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}.
   </div>
 </article>
 
