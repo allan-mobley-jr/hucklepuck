@@ -3,4 +3,4 @@ layout: home
 permalink: /
 ---
 
-# Going Serverless.
+# Going Serverless
