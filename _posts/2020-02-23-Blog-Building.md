@@ -21,8 +21,7 @@ Now when I think of serverless, three things come to mind:
     3. Lower costs.
 
 So when it came to my first ***ever*** blog, the overall theme of which is about going serverless, 
-I couldn't very well spin up a blog using the classic web server model. 
-That would be hypocritical to say the least.
+I couldn't very well spin up a blog using the classic web server model, now could I?
 
 No, I needed to find a way to host my blog in a static, low cost way. 
 I also needed a way of doing so that allowed visitors to search the blog and leave comments if so desired.
