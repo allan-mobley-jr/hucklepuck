@@ -77,7 +77,7 @@ But if my blog grew and became highly popular, I could always drop a CDN in fron
     
     3. Lower costs.
 
-:+1: ***Absolutely free!*** (I should point out that the custom domain cost $12 a year but who's counting three cents a day? 
+:+1: ***Absolutely free!*** (I should point out that the custom domain costs $12 a year, but who's counting three cents a day? 
 Also, you more than welcome to stick with the https-protected domain that GitHub Pages give you for free out of the box.)
 
 Well, there you have it. First post on my serverless blog in the books. You can view the source code for this blog 
