@@ -23,8 +23,8 @@ Now when I think of serverless, three things come to mind:
 So when it came to my first ***ever*** blog, the overall theme of which is about going serverless, 
 I couldn't very well spin up a blog using the classic web server model, now could I?
 
-No, I needed to find a way to host my blog in a static, low cost way. 
-I also needed a way of doing so that allowed visitors to search the blog and leave comments if so desired.
+No, I needed to find a means to host my blog in a static, low cost way. 
+I also needed a means of doing so that allowed visitors to search the blog and leave comments if so desired.
 
 Sounds easy, right?
 
