@@ -2,6 +2,7 @@
     "html.validate.scripts": false,
     "html.validate.styles": false,
     "cSpell.ignoreWords": [
-        "danyow"
+        "danyow",
+        "jemoji"
     ]
 }
