@@ -66,16 +66,19 @@ Cost? ***Absolutely free!***
 Now, let's reexamine whether my new blog meets my serverless goals:
 
     1. Little to no server management.
-        - Check: No server had to be spun up or provisioned. 
-                 No scale-up or scale-out settings had to be tweaked or messed with.
+
+:+1: No server had to be spun up or provisioned. No scale-up or scale-out settings had to be tweaked or messed with.
+
     2. High availability and scalability.
-        - Check: Well...sort of.
-                 GitHub Pages does have some [limitations](https://help.github.com/en/github/working-with-github-pages/about-github-pages#guidelines-for-using-github-pages).
-                 But if my blog grew and became highly popular, I could always drop a CDN in front or move it elsewhere (Azure Storage).
+
+:+1: Well...sort of. GitHub Pages does have some 
+[limitations](https://help.github.com/en/github/working-with-github-pages/about-github-pages#guidelines-for-using-github-pages). 
+But if my blog grew and became highly popular, I could always drop a CDN in front or move it elsewhere (Azure Storage).
+    
     3. Lower costs.
-        - Check: ***Absolutely free!***
-                 I should point out that the custom domain cost $12 a year but who's counting three cents a day? 
-                 Also, you more than welcome to stick with the https-protected domain that GitHub Pages give you for free out of the box.
+
+:+1: ***Absolutely free!*** (I should point out that the custom domain cost $12 a year but who's counting three cents a day? 
+Also, you more than welcome to stick with the https-protected domain that GitHub Pages give you for free out of the box.)
 
 Well, there you have it. First post on my serverless blog in the books. You can view the source code for this blog 
 [here](https://github.com/allan-mobley-jr/hucklepuck/). Feel free to clone, download, or fork the repo. Hope to see you next time!
